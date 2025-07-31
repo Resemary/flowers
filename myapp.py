@@ -1,7 +1,7 @@
 import streamlit as st                                                                                                 
 import numpy as np 
 from PIL import Image
-from tensorflow import keras
+ import keras
 
 # Load model
 model = keras.models.load_model('my_model.keras', compile=False)
