@@ -4,7 +4,7 @@ from PIL import Image
 import keras
 
 # Load model
-model = keras.models.load_model('C:\Users\LENOVO 11E\Downloads\flowers', compile=False)
+model = keras.models.load_model(r'C:\Users\LENOVO 11E\Downloads\flowers', compile=False)
 
 
 # Class names (adjust to your training labels)
