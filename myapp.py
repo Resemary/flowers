@@ -1,6 +1,5 @@
 import streamlit as st                                                                                                 
-import numpy as np
-import tensorflow 
+import numpy as np 
 from PIL import Image
 
 # Load model
