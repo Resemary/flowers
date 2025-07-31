@@ -1,7 +1,7 @@
 import streamlit as st                                                                                                 
 import numpy as np 
 from PIL import Image
-import keras
+
 
 # Load model
 model = keras.models.load_model(r'C:\Users\LENOVO 11E\Downloads\flowers', compile=False)
