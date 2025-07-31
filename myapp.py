@@ -1,4 +1,4 @@
-pip install keras
+!pip install keras
 import streamlit as st                                                                                                 
 import numpy as np 
 from PIL import Image
