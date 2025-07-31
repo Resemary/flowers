@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 # Load model
-model = keras.models.load_model('C:\\Users\\LENOVO 11E\\Downloads\\flower model', compile=False)
+model = keras.models.load_model('my_model.keras', compile=False)
 
 
 # Class names (adjust to your training labels)
