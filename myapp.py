@@ -1,12 +1,6 @@
-from flask import Flask, render_template, request
-app = Flask(__name__) render_templates, request
-@app.route('/',methods=['GET','POST'])
-def helloworld():
-    return"Hello World from Flask App!" 
-if __name__ == '__main__':  
-    app.run(debug=True, port=3000)                                                                                                    
+import streamlit as st                                                                                                 
 import numpy as np
-import tensorflow
+import tensorflow as tf
 from PIL import Image
 
 # Load model
